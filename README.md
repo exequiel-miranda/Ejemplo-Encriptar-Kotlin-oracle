@@ -6,7 +6,9 @@ El proceso es muy sencillo
 La app cuenta con dos pantallas, Login y Registro de usuarios </br>
 ![image](https://github.com/exequiel-miranda/Ejemplo-Encriptar-Kotlin-oracle/assets/94820436/925eb135-ed1f-4f44-bc5b-2b66d3359c7b)
 ![image](https://github.com/exequiel-miranda/Ejemplo-Encriptar-Kotlin-oracle/assets/94820436/f15e8f8b-455d-47f8-a68c-6847e85a4672)
-</br>
+</br></br>
+## Empecemos con Registrar usuarios</br>¿Como guardo un usuario con su contraseña encriptada?</br>
+ 
 Entonces, creamos la función que me encriptará la contraseña que el usuario escriba</br>
 ![image](https://github.com/exequiel-miranda/Ejemplo-Encriptar-Kotlin-oracle/assets/94820436/eae4d4b4-977c-4119-ae8d-e365fc487fe4)</br>
 Esta función siempre será la misma, toda la vida, esta ecripta texto usando el metódo "SHA-56"</br></br>
