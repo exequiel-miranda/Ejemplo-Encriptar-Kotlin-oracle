@@ -47,4 +47,14 @@ Supongamos que el usaurio se registró con la contraseña "12345678" esa contras
 Luego, cuando inicie sesión, si vuelve a escribir "12345678" se le va a volver a encriptar asi: "asd123kjeqrwe21312"</br>
 Si llega a escribir una contraseña diferente, se le va a encriptar diferente y no tendrá acceso</br>
 
+</br></br>
+Script por si quieren ejecutar el proyecto: </br>
+  ~~~kotlin
+CREATE TABLE TB_USUARIO_EMPRESA(
+    UUID_Usuario VARCHAR2(50) PRIMARY KEY,
+    Correo VARCHAR2(100) NOT NULL UNIQUE,
+    Contraseña VARCHAR2(255) NOT NULL
+);
 
+select * from TB_USUARIO_EMPRESA
+~~~
